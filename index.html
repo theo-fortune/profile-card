@@ -8,7 +8,11 @@
   </head>
   <body>
     <div class="container">
-      <div class="circle-1 abs"></div>
+      <div class="circle-1 abs glow"></div>
+      <div class="abs extra-time">
+        <span class="extra-time__type">UTC</span>
+				<h3 class="extra-time__time-time" id="extra-time"></h3>
+      </div>
       <img
         src="https://i.postimg.cc/5tV0Sfwy/code.png"
         alt="bg"
@@ -50,7 +54,7 @@
             >
           </div>
           <div class="card-footer__time">
-            <p id="time"></p>
+            <p id="time" data-testid="currentTimeUTC"></p>
             <div class="card-footer__time-socials">
               <a
                 href="https://x.com/Czarultimate1?s=09"
@@ -71,8 +75,12 @@
           </div>
         </div>
       </div>
-      <div class="circle-2 abs"></div>
+			<div class="my-name abs">
+				<h2 class="last-name">Theo</h2>
+				<h1 class="first-name">Fortune</h1>
+			</div>
+      <div class="circle-2 abs glow"></div>
     </div>
-		<script src="script.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
