@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="circle-1 abs"></div>
+      <img
+        src="https://i.postimg.cc/5tV0Sfwy/code.png"
+        alt="bg"
+        class="🖼️ abs"
+      />
+      <div class="card">
+        <div class="card-head">
+          <div class="card-head__circle"></div>
+          <div class="card-head__title">
+            <h2 data-testid="fullName">Theo Fortune</h2>
+            <h3 data-testid="jobTitle">Software Engineer</h3>
+          </div>
+        </div>
+        <div class="card-body">
+          <h1>Software Engineer</h1>
+          <p data-testid="shortBio">
+            I’m a software engineer with 5 years of experience, specializing in
+            frontend development and UI design. Over the years, I’ve worked
+            extensively as a freelancer and collaborated with tech companies and
+            startups, sharpening my skills and adapting to different challenges.
+            I’m committed to continuous improvement, always striving to get
+            better at what I do. My interests span Artificial Intelligence,
+            Robotics, Augmented Reality, Linguistics, and Space Travel, where
+            I’m excited to explore the future of technology and its impact on
+            our world.
+          </p>
+        </div>
+        <div class="card-footer">
+          <div class="card-footer__location">
+            <img src="./images/mdi_location.svg" alt="location" />
+            <p data-testid="currentLocation">Lagos, Nigeria</p>
+          </div>
+          <div class="card-footer__mail">
+            <img src="./images/mail.svg" alt="mail" />
+            <a
+              href="mailto:theofortunefunction@gmail.com"
+              data-testid="emailAddress"
+              >@theofortunefunction@gmail.com</a
+            >
+          </div>
+          <div class="card-footer__time">
+            <p id="time"></p>
+            <div class="card-footer__time-socials">
+              <a
+                href="https://x.com/Czarultimate1?s=09"
+                data-testid="socialLinks"
+                ><img src="./images/social-x.svg" alt="x"
+              /></a>
+              <a
+                href="https://www.linkedin.com/in/fortune-theo-b6445a230"
+                data-testid="socialLinks"
+                ><img src="./images/linkedin.svg" alt="linkedIn"
+              /></a>
+              <a
+                href="https://www.github.com/theo-fortune"
+                data-testid="socialLinks"
+                ><img src="./images/github.svg" alt="github"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="circle-2 abs"></div>
+    </div>
+		<script src="script.js"></script>
+  </body>
+</html>
